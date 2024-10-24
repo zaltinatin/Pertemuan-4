@@ -1,0 +1,86 @@
+!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>TUGAS PERTEMUAN 3</title>
+	<img src="fotozaltin.jpg">
+</head>
+<style>
+	body{
+	background-color: blueviolet;
+}
+img{
+	scale: width:200px;height: 150px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+table{
+	font-family: monospace;
+	margin-right: auto;
+	margin-left: auto;
+	border-collapse: collapse;
+	overflow: hidden;
+	box-shadow: 0 0 10px;
+	background-color: navy;
+	color: white;
+}
+tbody tr:hover{
+	background-color: whitesmoke;
+	color: green;
+}
+button{
+	font-family: monospace;
+	font-size: 1.1em;
+	background-color: lightcyan;
+	color: grey;
+	border-collapse: 2px solid bllack;
+	box-shadow: 4px 4px 4px;
+}
+button:hover:focus,button:active{
+	color: orange;
+	background-color: black;
+	cursor: pointer;
+}
+</style>
+<body>
+<center>
+<h1>Biodata</h1>
+<table border ="1">
+	<tr>
+		<td>Nama</td>
+		<td>:</td>
+		<td>Zaltin</td>
+	</tr>
+	<tr>
+		<td>NIM</td>
+		<td>:</td>
+		<td>D212111035</td>
+	</tr>
+	<tr>
+		<td>Alamat</td>
+		<td>:</td>
+		<td>Sulawesi</td>
+	</tr>
+	<tr>
+		<td>Hobi</td>
+		<td>:</td>
+		<td>
+			<ul>  
+				<li>Membaca</li>
+				<li>Menulis</li>
+			</ul>
+		</td>
+	</tr>
+</table>
+<button onclick="myalert()">Simpan</button>
+<script>
+	function myalert() {
+		alert("Data berhasil disimpan");
+	}
+</script>
+</center>
+</body>
+</html>
